@@ -1,0 +1,168 @@
+<title>Computer Aided Design (CAD) Model - SBSP</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://sbsp.oasisofchange.org/css/tailwind/min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer=""></script>
+
+    <div class="">
+                
+      <section x-data="{ mobileNavOpen: false }" class="overflow-hidden ">
+        <nav class="mx-4 py-6">
+          <div class="container mx-auto px-4">
+            <div class="relative flex items-center justify-between">
+              <a href="/" class="inline-block">
+                <img class="h-14" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/sbsp-logo1.png" alt="">
+              </a>
+              <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:flex">
+                <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/cad">CAD Model</a></li>
+                <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/physical">Physical Model</a></li>  <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/sustainability">Website Sustainability</a></li>
+              </ul>
+              <div class="flex items-center justify-end">
+                <div class="hidden md:block">
+                  <a href="/blog" class="inline-flex group py-2.5 px-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200">
+                    <span class="mr-2">Read Blog</span>
+                    <span class="transform group-hover:translate-x-0.5 transition-transform duration-200">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10 4.75L15.25 10L10 15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <button x-on:click="mobileNavOpen = !mobileNavOpen" class="md:hidden text-teal-900 hover:text-teal-800">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.19995 23.2H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.19995 16H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.19995 8.79999H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="fixed top-0 left-0 bottom-0 w-full xs:w-5/6 xs:max-w-md z-50 hidden">
+          <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-violet-900 opacity-20"></div>
+          <nav class="relative flex flex-col py-7 px-10 w-full h-full bg-white overflow-y-auto">
+            <div class="flex items-center justify-between">
+              <a href="#" class="inline-block">
+                <img class="h-8" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/sbsp-logo1.png" alt="">
+              </a>
+              <div class="flex items-center">
+                <button x-on:click="mobileNavOpen = !mobileNavOpen" class="ml-6">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.2 8.79999L8.80005 23.2M8.80005 8.79999L23.2 23.2" stroke="#1D1F1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="pt-20 pb-12 mb-auto">
+              <ul class="flex-col">
+                <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/cad">CAD Model</a></li>
+                <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/physical">Physical Model</a></li><li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/sustainability">Website Sustainability</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+                
+      <section class="pb-12 md:pb-24 ">
+        <div class="relative pt-10 pb-80">
+          <img class="absolute top-0 left-0 w-full h-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/content/bg-teal-waves.png" alt="">
+          <div class="container mx-auto px-4 relative">
+            <a href="/blog" class="inline-block mb-14 text-lg font-medium text-white hover:text-lime-600">Back to blog</a>
+            <div class="max-w-3xl mx-auto text-center">
+              <span class="inline-block px-2 mb-4 text-sm leading-5 font-medium bg-white rounded-full">Space-Based Solar Power</span>
+              <h2 class="font-heading text-4xl xs:text-5xl md:text-6xl tracking-xs text-white mb-6">Non-Geostationary Satellite: Computer Aided Design (CAD) Model</h2>
+              <div class="flex items-center justify-center">
+                <span class="text-sm font-medium text-white">July 6th, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mx-auto -mt-64 px-4 relative">
+          <div class="flex flex-wrap -mx-4 mb-18">
+            <div class="w-full md:w-1/6 px-4 mb-6 md:mb-0"></div>
+            <div class="w-full md:w-4/6 px-4 mb-6 md:mb-0">
+              <img class="block w-full max-w-3xl mx-auto rounded-3xl shadow-2xl" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/CAD.webp" alt="">
+            </div>
+          </div>
+          <div class="max-w-lg lg:max-w-2xl mx-auto">
+            <h4 class="text-3xl font-medium mb-8">From Physical to Digital</h4>
+            <p class="text-lg mb-4">Once I brought my vision for a space-based solar power satellite to life with a physical model, I wanted to create a digital version to explore the design further. The only issue was that I had never used design software before!</p>
+            <h4 class="text-3xl font-medium mb-8">TinkerCAD to the Rescue!</h4>
+            <p class="text-lg mb-4">Enter TinkerCAD, a design software I discovered through online research. Thanks to its intuitive interface and wealth of online tutorials, I was up and running in no time.</p>
+            <h4 class="text-3xl font-medium mb-8">My TinkerCAD Model: A Beacon of Clean Energy</h4>
+            <p class="text-lg mb-4">My TinkerCAD model features a satellite with expansive solar panels. Here's how it contributes to a sustainable future:</p>
+            <ul class="list-disc text-lg list-inside mb-8">
+              <li class="mb-2">
+      <strong>Maximizing Energy Collection:</strong> The large surface area of the panels allows for significant solar energy capture, potentially impacting global energy production in a major way.</li>
+              <li class="mb-2">
+      <strong>Reaching Remote Areas:</strong> Imagine powering homes and businesses in areas lacking access to sustainable energy sources! This design, if the beaming technology is perfected, could deliver clean energy even to the most remote locations.</li>
+            </ul>
+            <h4 class="text-3xl font-medium mb-8">Why This Design?</h4>
+            <p class="text-lg mb-4">The focus is on maximizing energy collection through the large solar panels, crucial for a satellite aiming to provide substantial clean energy. The simplicity also allows for scalability. Imagine a network of these satellites working together as a massive clean energy source!</p>
+            <div>
+              <img class="block mb-2 rounded-3xl shadow-xl" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/cad1.webp" alt="">
+              <p class="text-lg mb-8 text-center">Checking the solar panel alignment on my space station model in TinkerCAD.</p>
+            </div>
+            <h4 class="text-3xl font-medium mb-8">A Stepping Stone to a Brighter Future</h4>
+            <p class="text-lg mb-4">A space-based solar power satellite like this could be a significant step towards a world powered by 100% renewable energy. Imagine a future with cleaner air and reduced reliance on fossil fuels! This project is just the beginning. As sustainable technologies develop, we can keep visualizing a future powered by clean energy solutions, where both bustling cities and remote communities thrive under the light of space-based solar power!</p>
+            <div>
+              <img class="block mb-2 rounded-3xl shadow-xl shadow-xl" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/beam.webp" alt="">
+              <p class="text-lg mb-8 text-center">Optimizing the size of the paraboloid dish for efficient space energy transmission.</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="hidden lg:block lg:w-1/6 lg:px-4"></div>
+            <div class="w-full md:w-5/6 lg:w-4/6 px-4 mb-6 md:mb-0">
+              <div class="w-full max-w-3xl mx-auto py-8 px-5 xs:px-10 bg-orange-50 rounded-2xl">
+                <div class="md:flex">
+                  <div class="flex-shrink-0">
+                    <img class="block h-18 rounded" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/imresizer-1714701137406.jpg" alt="">
+                  </div>
+                  <div class="mt-6 md:mt-0 md:ml-8">
+                    <span class="block text-lg font-medium">Gabriel Dalton</span>
+                    <span class="block mb-4 text-gray-700">Space-Based Solar Power Researcher</span>
+                    <a href="https://www.linkedin.com/in/gabrieldalton/" class="inline-block text-gray-700 hover:text-lime-600">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                        <g clip-path="url(#clip0_174_1224)">
+                          <path d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z" fill="currentColor"></path>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section class="bg-teal-900">
+        <div class="container text-white mx-auto px-4">
+          <div class="max-w-xl mx-auto xl:max-w-none">
+            <div class="relative flex flex-wrap py-12 items-center justify-between">
+              <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden xl:flex">
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/cad">CAD Model</a></li>
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/physical">Physical Model</a></li>
+              </ul>
+              <div class="w-full xl:hidden mt-8">
+                <ul class="flex flex-wrap -mb-4 xs:justify-between">
+                  <li class="mb-4 mr-8"><a class="inline-block hover:text-lime-500 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                  <li class="mb-4 mr-8"><a class="inline-block hover:text-lime-500 font-medium" href="/cad">CAD Model</a></li>
+                  <li class="mb-4 mr-8"><a class="inline-blockhover:text-lime-500 font-medium" href="/physical">Physical Model</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
