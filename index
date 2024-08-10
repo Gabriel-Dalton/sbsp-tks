@@ -1,0 +1,245 @@
+<title>Homepage - Space-Based Solar Power (SBSP)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://sbsp.oasisofchange.org/css/tailwind/min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer=""></script><div class="">
+<div x-data="{ modal: true }" :class="{'hidden': !modal}" class="fixed bottom-0 z-50 left-0 p-6 md:p-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-sm py-6 px-10 mx-auto w-full bg-white border rounded-2xl">
+            <p class="mb-8">Our website is optimized using advanced techniques to minimize its environmental footprint and ensure minimal carbon impact.</p>
+            <a href="/sustainability" class="inline-flex mr-2 py-4 px-6 items-center justify-center text-lg font-medium text-white hover:text-teal-900 border border-teal-900 hover:border-lime-500 bg-teal-900 hover:bg-lime-500 rounded-full transition duration-200">Learn More</a>
+            <a x-on:click.prevent="modal = false" href="#" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-white hover:text-teal-900 border border-teal-900 hover:border-lime-500 bg-teal-900 hover:bg-lime-500 rounded-full transition duration-200">Close</a>
+        </div>
+    </div>
+</div>
+
+<section x-data="{ mobileNavOpen: false }" class="relative bg-orange-50">
+  <img class="absolute top-0 left-0 w-full h-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/headers/bg-waves.png" alt="">
+  <nav class="py-6 border-b">
+    <div class="container mx-auto px-4">
+      <div class="relative flex items-center justify-between">
+        <a href="/" class="inline-block">
+          <img class="h-14" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/sbsp-logo1.png" alt="">
+        </a>
+        <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:flex">
+          <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+          <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/cad">CAD Model</a></li>
+          <li class="mr-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/physical">Physical Model</a></li>
+          <li class="mr-8 hidden lg:block"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/sustainability">Website Sustainability</a></li>
+        </ul>
+        <div class="flex items-center justify-end">
+          <div class="hidden md:block">
+            <a href="#blog" class="inline-flex group py-2.5 px-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200">
+              <span class="mr-2">Read Blog</span>
+              <span class="transform group-hover:translate-x-0.5 transition-transform duration-200">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M10 4.75L15.25 10L10 15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <button x-on:click="mobileNavOpen = !mobileNavOpen" class="md:hidden navbar-burger text-teal-900 hover:text-teal-800">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.19995 23.2H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5.19995 16H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5.19995 8.79999H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="relative pt-18 pb-24 sm:pb-32 lg:pt-36 lg:pb-62">
+    <div class="container mx-auto px-4 relative">
+      <div class="max-w-lg xl:max-w-xl mx-auto text-center">
+        <h1 class="font-heading text-5xl xs:text-7xl xl:text-8xl tracking-tight mb-8">The Future of Green Energy</h1>
+        <p class="max-w-md xl:max-w-none text-lg text-gray-700 mb-10">Imagine a future where clean energy powers our lives, leaving a cleaner, healthier planet for generations to come. Join Space-Based Solar Power (SBSP) on a journey towards a sustainable tomorrow powered by renewable energy.</p>
+        <a href="https://sbsp.oasisofchange.org/what-is-sbsp/" class="inline-flex py-4 px-6 mb-3 sm:mb-0 sm:mr-4 items-center justify-center text-lg font-medium text-white hover:text-teal-900 border border-teal-900 hover:border-lime-500 bg-teal-900 hover:bg-lime-500 rounded-full transition duration-200">Read More</a>
+      </div>
+    </div>
+  </div>
+  <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="fixed top-0 left-0 bottom-0 w-full xs:w-5/6 xs:max-w-md z-50 hidden">
+    <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-violet-900 opacity-20"></div>
+    <nav class="relative flex flex-col py-7 px-10 w-full h-full bg-white overflow-y-auto">
+      <div class="flex items-center justify-between">
+        <a href="/" class="inline-block">
+          <img class="h-8" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/sbsp-logo1.png" alt="">
+        </a>
+        <div class="flex items-center">
+          <button x-on:click="mobileNavOpen = !mobileNavOpen">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.2 8.79999L8.80005 23.2M8.80005 8.79999L23.2 23.2" stroke="#1D1F1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="pt-20 pb-12 mb-auto">
+        <ul class="flex-col">
+          <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+          <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/cad">CAD Model</a></li>
+          <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/physical">Physical Model</a></li>     <li class="mb-8"><a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/sustainability">Website Sustainability</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+
+                
+      <section class="py-12 lg:py-24 bg-teal-900">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+              <div>
+                <h1 class="font-heading text-6xl text-white">Why Space-Based Solar Power (SBSP)?</h1>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 px-4">
+              <div class="lg:max-w-lg md:ml-auto">
+                <p class="text-xl font-medium text-gray-50 mb-10">Fossil fuels are dirty and unsustainable. A space-based solar power satellite could be a game-changer. Imagine a satellite constantly harvesting the sun's clean energy to power our planet!</p>
+                <a href="/cad" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-white hover:text-black hover:bg-white border border-white rounded-full transition duration-200">View CAD Satellite</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section x-data="{ showContent: false }" id="blog" class="relative py-12 lg:py-24 ">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap items-center justify-between mb-20 -mx-4">
+            <div class="w-full text-center px-4 mb-10 sm:mb-0">
+              <h1 class="font-heading text-5xl sm:text-6xl">Blog</h1>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 xl:w-7/12 px-4 mb-8 lg:mb-0">
+              <div>
+                <img class="block w-full mb-8" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/image-lg-post.png" alt="">
+                
+                <a href="/cad" class="block group max-w-2xl">
+                  <h3 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Space-Based Solar Power Satellite | CAD Model</h3>
+                  <p class="text-lg text-gray-700 mb-6">This blog post explores a vision for the future: a solar-powered satellite model built using TinkerCAD.</p>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
+              <div class="max-w-lg">
+                <a href="/physical" class="flex flex-wrap sm:flex-nowrap group mb-8 items-center">
+                  <img class="block rounded-2xl" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/irl.jpg" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">Physical Model | SBSP Satellite</h3>
+                  </div>
+                </a>
+                <a href="/sustainability" class="flex flex-wrap sm:flex-nowrap group mb-8 items-center">
+                  <img class="block rounded-2xl" src="https://file-hosting.dashnexpages.net/web-ready-demos/images/wind.png" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">How This Website is Powered with Renewable Energy</h3>
+                  </div>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+          <div :class="{'hidden': !showContent}" class="flex flex-wrap mt-16 -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+              <div class="max-w-lg">
+                <a href="#" class="flex flex-wrap sm:flex-nowrap group mb-8 items-center">
+                  <img class="block" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/image-sm-1.png" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h3>
+                    <div class="flex items-center">
+                      <img class="w-8 h-8 rounded-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/circle-avatar-1.png" alt="">
+                      <div class="flex items-center ml-4">
+                        <span class="text-sm font-medium">Wade Warren</span>
+                        <span class="mx-2 sm:mx-4">
+                          <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="#929C9A"></circle></svg>
+                        </span>
+                        <span class="text-sm font-medium">7 min read</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="flex flex-wrap sm:flex-nowrap group items-center">
+                  <img class="block" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/image-sm-2.png" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">From Trash to Treasure: The Promising World of Biomass Energy</h3>
+                    <div class="flex items-center">
+                      <img class="w-8 h-8 rounded-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/circle-avatar-2.png" alt="">
+                      <div class="flex items-center ml-4">
+                        <span class="text-sm font-medium">Jenny Wilson</span>
+                        <span class="mx-2 sm:mx-4">
+                          <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="#929C9A"></circle></svg>
+                        </span>
+                        <span class="text-sm font-medium">7 min read</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="max-w-lg">
+                <a href="#" class="flex flex-wrap sm:flex-nowrap group mb-8 items-center">
+                  <img class="block" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/image-sm-1.png" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h3>
+                    <div class="flex items-center">
+                      <img class="w-8 h-8 rounded-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/circle-avatar-1.png" alt="">
+                      <div class="flex items-center ml-4">
+                        <span class="text-sm font-medium">Wade Warren</span>
+                        <span class="mx-2 sm:mx-4">
+                          <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="#929C9A"></circle></svg>
+                        </span>
+                        <span class="text-sm font-medium">7 min read</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="flex flex-wrap sm:flex-nowrap group items-center">
+                  <img class="block" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/image-sm-2.png" alt="">
+                  <div class="mt-6 sm:mt-0 sm:ml-8">
+                    <h3 class="text-2xl font-medium group-hover:text-teal-600 transition duration-200 mb-6">From Trash to Treasure: The Promising World of Biomass Energy</h3>
+                    <div class="flex items-center">
+                      <img class="w-8 h-8 rounded-full" src="https://file-hosting.dashnexpages.net/web-ready-demos/flow-assets/blog/circle-avatar-2.png" alt="">
+                      <div class="flex items-center ml-4">
+                        <span class="text-sm font-medium">Jenny Wilson</span>
+                        <span class="mx-2 sm:mx-4">
+                          <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="#929C9A"></circle></svg>
+                        </span>
+                        <span class="text-sm font-medium">7 min read</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section class="bg-teal-900">
+        <div class="container text-white mx-auto px-4">
+          <div class="max-w-xl mx-auto xl:max-w-none">
+            <div class="relative flex flex-wrap py-12 items-center justify-between">
+              <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden xl:flex">
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/cad">CAD Model</a></li>
+                <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/physical">Physical Model</a></li> <li class="mr-16"><a class="inline-block hover:text-lime-500 font-medium" href="/sustainability">Website Sustainability</a></li>
+              </ul>
+              <div class="w-full xl:hidden mt-8">
+                <ul class="flex flex-wrap -mb-4 xs:justify-between">
+                  <li class="mb-4 mr-8"><a class="inline-block hover:text-lime-500 font-medium" href="/what-is-sbsp">What is SBSP?</a></li>
+                  <li class="mb-4 mr-8"><a class="inline-block hover:text-lime-500 font-medium" href="/cad">CAD Model</a></li>
+                  <li class="mb-4 mr-8"><a class="inline-blockhover:text-lime-500 font-medium" href="/physical">Physical Model</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
