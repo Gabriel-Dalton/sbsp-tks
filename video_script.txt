@@ -1,0 +1,40 @@
+An Educational Website and CAD/Physical Prototype Explaining Space-Based Solar Power (SBSP). 
+
+Work:
+
+
+The sun sets every day, sending us into darkness and reminding us of the limitations of traditional renewable energy. Solar panels rely on sunshine, wind turbines depend on gusts, and hydroelectricity requires specific geographical features. But what if we could tap into a constant source of solar power that can help us move away from using fossil fuels and is uninterrupted by Earth's rotation or weather patterns? Enter a concept called Space-Based Solar Power, SBSP for short. Space-Based Solar Power (SBSP) is a futuristic concept that aims to capture the sun's immense energy in space. Imagine giant solar panels, much bigger than the ones on your roof, constantly bathed in sunlight as they orbit Earth. This captured energy wouldn't be beamed directly as sunlight, but instead converted into electricity within the satellite itself. Then, like a super-powered Wi-Fi signal, this electricity would be beamed wirelessly to Earth using microwaves or lasers. Special stations on Earth would catch these beams and convert them back into usable electricity, powering our homes and cities.
+
+In 1968 the first engineering design for a solar power satellite was produced by Czech-born NASA engineer Peter Glaser. In 1973 he was granted the patent for his microwave-based method of transmitting power from the orbital down to the ‘rectenna’ which is the “receiving antenna” on the ground. His work built on earlier wireless power transmission research by US electrical engineer William C. Brown, who in 1964 managed to power the flight of a model helicopter using microwaves beamed from the ground.
+
+There are two types of SBSP satellites; geostationary orbit (GEO) and non-geostationary orbit (NGO). Geostationary represents an orbiting method where an object has an orbital period equal to Earth's rotational period and so to ground observers it appears motionless, in a fixed position in the sky. Non-Geostationary is the opposite, unlike geostationary satellites, which are located at a specific point in the sky relative to the Earth's surface, NGO satellites are constantly moving across the sky. 
+
+While geostationary SBSP offers a solution, my project focuses on Non-Geostationary (NGO) SBSP satellites. These have the advantage of being positioned strategically to deliver clean energy directly to remote areas. Unlike geostationary options requiring a fixed position in the sky, NGO satellites can be placed in lower orbits, reducing transmission distances and potentially improving efficiency. Additionally, NGO satellites can be placed in lower orbits, requiring less powerful rockets and fuel, leading to potentially faster and cheaper deployment.
+
+On March 3rd, 2023, The California Institute of Technology showcased a groundbreaking example of how space solar power can be used to wirelessly transfer power from space back down to Earth. The project was called MAPLE, which is short for Microwave Array for Power-transfer Low-orbit Experiment. Headed by Ali Hajimiri, the co-founder of Caltech's Solar Space Power Project, whose mission is to transform the energy industry towards making SBSP a realistic solution for the future of clean energy. Their research focuses on overcoming technical challenges and reducing costs to create a sustainable and scalable power source. The Californian team used an array of flexible lightweight microwave power transmitters that were built using low cost silicon technologies to transfer the energy from the satellite to Earth. This example shows that harvesting the sun's unlimited energy is possible and potentially a more sustainable solution compared to having solar panels on Earth. 
+
+
+Now after all of this talk, you might be wondering how the heck energy is transmitted from the satellite to Earth.
+
+There are six steps to using space-based solar power. 
+Sunlight Capture: Special satellites equipped with advanced solar panels, developed potentially by teams like ESA's Advanced Concepts Team, orbit Earth in a position to capture the sun's energy continuously.
+Energy Conversion: The captured sunlight is converted into electricity within the satellites.
+Beam Formation: The converted electrical energy is then transformed into a highly focused beam of radio frequency energy, either microwaves or lasers.
+Wireless Power Transmission: The powerful beam of radio frequency energy is transmitted Earthward from the satellites.
+Energy Reception on Earth: Ground stations equipped with specialized collectors capture the beamed energy.
+Power Conversion and Distribution: The captured radio frequency energy is converted back into electricity at the ground stations. This usable electricity can then be fed into the existing power grid for distribution to homes and businesses.
+
+Now, I'm not saying that SBSP is perfect. Like any technology, it has its pros and cons. During my research and development of the model, I identified several challenges. Ensuring the safety of energy transmission for humans, wildlife, and aircraft is paramount. Additionally, we must develop efficient methods to transmit large amounts of energy over long distances with minimal loss and address the high costs of launching and maintaining satellites in space. Despite these hurdles, the potential benefits make SBSP a really exciting possibility for our future energy needs.
+
+For my project, I created a comprehensive website, a detailed CAD model, and a physical model of a satellite designed to harness Space-Based Solar Power (SBSP) for generating electricity on Earth. You can explore the project at https://sbsp.oasisofchange.org. Here’s a short recording of my website. 
+
+Here is a picture of my Computer Aided Design (CAD) Satellite and here is a picture of my physical model.
+
+If this idea became more mainstream, it would be a substantial breakthrough in the right direction to fight for greener energy sources. According to the U.S. Energy Information Administration, by 2050, global energy use is expected to increase by 50% compared to 2022, putting a strain on existing resources. SBSP offers a promising solution to meet this growing demand with a clean and abundant energy source.
+
+And that wraps up my project on Space-Based Solar Power! Thank you for listening, and I hope you found it informative and inspiring.
+
+
+
+
+
